@@ -1,0 +1,95 @@
+QUESTION 1 and QUESTION 6:
+
+
+a = 5
+b = 10.05
+c = 'Hello'
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+
+print("The data type of the input value is :", type(a))
+print("The data type of the input value is :", type(b))
+print("The data type of the input value is :", type(c))
+
+
+
+QUESTION 2:
+
+
+d = 5
+e = 6
+f = complex(d, e)
+
+print(f)
+
+
+QUESTION 3:
+
+
+a1 = 5
+a2 = 6
+print('before swapping')
+print(a1)
+print(a2)
+temp = a1
+a1 = a2
+a2 = temp
+print('after swapping')
+print(a1)
+print(a2)
+
+
+QUESTION 5:
+
+
+val1 = int(input('enter number between 1-10'))
+val2 = int(input('enter number between 1-10'))
+z = val1 + val2
+number = 30
+result = z + number
+print("Result: " + str(result))
+
+
+QUESTION 4:
+
+
+Microsoft Windows [Version 10.0.22000.675]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Satvik Shrivastava>py -2
+Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:25:05) [MSC v.1500 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print "Hello World"
+Hello World
+>>> a = 1
+>>> b = 2
+>>> c = a+b
+>>> print c
+3
+
+Microsoft Windows [Version 10.0.22000.675]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Satvik Shrivastava>py -3
+Python 3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello World")
+Hello World
+>>> a = 1
+>>> b = 2
+>>> c = a+b
+>>> print(c)
+3
+
+
+QUESTION 8:
+
+
+a = 5
+print(type(a))
+new = float(a)
+print(new)
+print(type(new))
