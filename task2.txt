@@ -1,0 +1,192 @@
+QUESTION 1:
+
+
+val1 = int(input("Enter the number"))
+if val1 % 3 == 0:
+    print("Consultadd")
+if val1 % 5 == 0:
+    print("Python Training")
+if val1 % 3 == 0 and val1 % 5 == 0:
+    print("Consultadd - Python Training")
+else:
+    print("number not divisible")
+
+
+QUESTION 2:
+
+
+print(" Enter among numbers 1,2,3,4,5")
+val = int(input("Enter the choice"))
+
+num1 = int(input("Enter first number"))
+num2 = int(input("Enter second number"))
+if num1 < 0 or num2 < 0:
+    print("NEGATIVE")
+
+if val == 1:
+    print("Addition")
+    print(num1+num2)
+
+elif val == 2:
+    print("Subtraction")
+    print(num1 - num2)
+
+elif val == 3:
+    print("Division")
+    print(num1 / num2)
+
+elif val == 4:
+    print("Multiplication")
+    print(num1 * num2)
+
+elif val == 5:
+    print("Average")
+    avg = (num1 + num2) / 2
+    print(float(avg))
+
+else:
+    print("not valid number")
+
+
+QUESTION 3:
+
+
+a = 10
+b = 20
+c = 30
+avg = (a + b + c) / 3
+print("avg", avg)
+
+if avg > a and avg > b and avg > c:
+    print("Average is higher than a, b, c")
+elif avg > a and avg > b:
+    print("average higher than a and b")
+    if avg > a and avg > c:
+        print("avg is higher than a and c")
+    if avg > b and avg > c:
+        print("avg is higher than b and c")
+elif avg > a:
+    print("avg is just higher than a")
+    if avg > b:
+        print("avg is just higher than b")
+    if avg > c:
+        print("avg is just higher than c")
+else:
+    print("error")
+
+
+QUESTION 4:
+
+
+numbers = [1,2,3,4,5,-1,6]
+for s in numbers:
+    if s < 0:
+        print("It's over")
+        print(s)
+        continue
+    if s > 0:
+        print("Good going")
+
+
+QUESTION 5:
+
+
+lower = 2000
+higher = 3200
+for number in range(lower, higher + 1):
+    if number % 7 == 0 and number % 5 != 0:
+        print(number)
+
+
+QUESTION 6:
+
+
+output to first part:
+for i in x:
+TypeError: 'int' object is not iterable
+
+output to second part:
+0
+error
+1
+error
+2
+
+output to third part:
+0
+1
+2
+3
+4
+
+
+QUESTION 7:
+
+
+for i in range(7):
+    if i == 3:
+        continue
+    if i == 6:
+        continue
+    else:
+        print(i)
+
+
+QUESTION 8:
+
+
+str1 = input("Input a string")
+digit = letter = 0
+for s in str1:
+    if s.isdigit():
+        digit = digit + 1
+    elif s.isalpha():
+        letter = letter + 1
+    else:
+        pass
+print("Letters", letter)
+print("Digits", digit)
+
+
+
+QUESTION 9:
+
+
+num = -1
+ans = 'yes'
+while num != 11 and ans != 'no':
+    num = int(input("Guess the lucky number "))
+    if num != 11:
+        ans = input("guess again?")
+
+
+
+QUESTION 10:
+
+
+counter = 1
+while counter <= 5:
+    num = int(input("Enter number"))
+    if num == 11:
+        print("Good guess!")
+    else:
+        print("Try again!")
+    counter = counter + 1
+else:
+    print("Game over!")
+
+
+QUESTION 11:
+
+
+counter = 1
+while counter <= 5:
+    num = int(input("Enter number"))
+    if num == 11:
+        print("Good guess!")
+        break
+    else:
+        print("Try again!")
+    counter = counter + 1
+else:
+    print("Sorry but that was not very successful.")
